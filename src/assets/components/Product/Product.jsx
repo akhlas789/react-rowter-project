@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 
 const Product = () => {
     const products = useLoaderData()
+    
     return (
         <div className="flex h-screen justify-center items-center">
             <div className="w-full h-96 w-50 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
